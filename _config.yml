@@ -1,0 +1,103 @@
+# ===========================
+# Site settings
+# ===========================
+locale: "en-US"
+title: "Aravind Sankar"
+title_separator: "-"
+subtitle: "Working Professional MBA @ Ohio State — my story, my projects, and ongoing class notes"
+name: "Aravind Sankar"
+description: "Personal site and blog: MBA coursework at Ohio State's Fisher College of Business, projects, and my story."
+url: "https://aravindsankar.com"
+baseurl: ""
+repository: "sankara1993/sankara1993.github.io" # <-- update this
+
+# ===========================
+# Theme (Minimal Mistakes, loaded remotely so you don't need to vendor it)
+# ===========================
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "dark" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+search: true
+
+# ===========================
+# Build settings
+# ===========================
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 10
+paginate_path: /page:num/
+
+include: ["_pages"]
+
+# ===========================
+# Collections (Portfolio)
+# ===========================
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+defaults:
+  # _posts (class notes / blog)
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+  # _pages (About, Resume, Contact, Portfolio index)
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # portfolio collection
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+# ===========================
+# Author / sidebar
+# ===========================
+author:
+  name: "Aravind Sankar"
+  avatar: "/assets/images/avatar.jpg" # <-- drop a headshot here later
+  bio: "Working Professional MBA candidate at Ohio State's Fisher College of Business. Manager, Finance at Thermo Fisher Scientific. This is where I post class projects and keep track of my story."
+  location: "Columbus, OH"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sankara1993"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sankar-aravind"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:asankara1993@gmail.com"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sankara1993"
+
+# ===========================
+# Navigation (edit in _data/navigation.yml)
+# ===========================
