@@ -9,27 +9,27 @@ tags:
 
 *Spring 2025*
 
-Ever sat through a leadership seminar and thought, "This sounds great in theory... but how do I actually do it?" That's exactly where Evidence-Based Management (EBM) steps in, and trust us — it's not just another buzzword.
+Ever sat through a leadership seminar and thought, "This sounds great in theory... but how do I actually do it?" That's exactly where Evidence-Based Management (EBM) steps in, and trust us, it's not just another buzzword.
 
-Let's break down the essentials of EBM and the AID framework (Articulate, Identify, Deploy) — a practical approach to transforming big ideas into real results.
+Let's break down the essentials of EBM and the AID framework (Articulate, Identify, Deploy): a practical approach to transforming big ideas into real results.
 
 ## 📊 What Is Evidence-Based Management (EBM)?
 
-Think of EBM as leadership's version of "don't guess, test." It's the practice of making managerial decisions using the best available evidence — typically from research and data. Sounds great, right? So why don't more people use it?
+Think of EBM as leadership's version of "don't guess, test." It's the practice of making managerial decisions using the best available evidence, typically from research and data. Sounds great, right? So why don't more people use it?
 
 **Why EBM Isn't Everywhere (Yet):**
 
 - It's hard to find trustworthy evidence among all the fluff.
-- It shifts power — from titles to those who bring the receipts (a.k.a. data).
-- It demands humility — leaders must be willing to listen to what the evidence says, even when it stings.
+- It shifts power: from titles to those who bring the receipts (a.k.a. data).
+- It demands humility: leaders must be willing to listen to what the evidence says, even when it stings.
 
-Enter: the AID model — your leadership GPS.
+Enter: the AID model: your leadership GPS.
 
 ## 🎯 AID: Articulate, Identify, Deploy
 
 ### 🅰️ Articulate the Problem
 
-Great leaders don't chase every fire — they pick the right ones. A leadership problem isn't just any issue; it's one where current outcomes aren't cutting it and change won't happen on autopilot.
+Great leaders don't chase every fire, they pick the right ones. A leadership problem isn't just any issue; it's one where current outcomes aren't cutting it and change won't happen on autopilot.
 
 How do you spot high-priority problems?
 
@@ -46,13 +46,13 @@ Great HLBs are:
 
 - **Concrete**: You can see it. You can measure it. (Like disinfecting a side rail.)
 - **Efficacious**: The behavior reliably gets the result.
-- **Malleable**: People can change it — and you can influence that change.
+- **Malleable**: People can change it and you can influence that change.
 
 **Real-World Example: Vietnam's Malnutrition Breakthrough.** By studying outlier families whose kids were thriving, researchers discovered tiny behavior differences (like adding shrimp to rice) that made all the difference. That's HLB gold.
 
 ### 📣 Deploy Influence (The Smart Way)
 
-Now that you know what to change — how do you actually get people to do it?
+Now that you know what to change: how do you actually get people to do it?
 
 Leaders often default to:
 
@@ -90,4 +90,4 @@ Being a leader doesn't require a fancy title. It requires:
 - Listening to what the evidence (and people) tell you
 - Knowing which behavior to influence — and how to do it with heart and smarts
 
-So the next time you're faced with a leadership challenge, remember: Articulate, Identify, Deploy — and do it with purpose.
+So the next time you're faced with a leadership challenge, remember: Articulate, Identify, Deploy and do it with purpose.
