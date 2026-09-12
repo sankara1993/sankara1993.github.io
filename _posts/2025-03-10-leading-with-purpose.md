@@ -7,7 +7,7 @@ tags:
   - fisher-college-of-business
 ---
 
-Spring 2025
+*Spring 2025*
 
 Ever sat through a leadership seminar and thought, "This sounds great in theory... but how do I actually do it?" That's exactly where Evidence-Based Management (EBM) steps in, and trust us — it's not just another buzzword.
 
