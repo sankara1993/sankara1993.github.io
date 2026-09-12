@@ -7,6 +7,8 @@ tags:
   - marathon
 ---
 
+*Spring 2025*
+
 After taking some time off from serious training, I've been itching to lace up my running shoes again. There's just something about the rhythm of the road and the challenge of pushing my limits that keeps calling me back. So, I've decided it's time to dive back into training — and what better way to do it than by signing up for the Columbus Marathon in 2025!
 
 This time around, I'm not just running to finish — I'm running to beat my personal best. My goal is to cross the finish line faster than I did in my first marathon, where I clocked in at 3 hours and 47 minutes. It's a tough challenge, but I'm ready to put in the miles, sweat, and dedication to make it happen.
