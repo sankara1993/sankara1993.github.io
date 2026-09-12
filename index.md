@@ -16,3 +16,26 @@ excerpt: "Welcome"
     <a href="/contact/" class="btn btn--primary btn--pill">Contact</a>
   </div>
 </div>
+
+<div class="pillars">
+  <a href="/resume/" class="pillars__item">
+    <i class="fas fa-chart-line pillars__icon" aria-hidden="true"></i>
+    <h3 class="pillars__title">Finance &amp; Data</h3>
+    <p class="pillars__text">Tableau, Power BI, and automation work from my career in corporate finance.</p>
+  </a>
+  <a href="/year-archive/" class="pillars__item">
+    <i class="fas fa-graduation-cap pillars__icon" aria-hidden="true"></i>
+    <h3 class="pillars__title">MBA @ Fisher</h3>
+    <p class="pillars__text">Ongoing notes and recaps from my Working Professional MBA classes at Ohio State.</p>
+  </a>
+  <a href="/about/" class="pillars__item">
+    <i class="fas fa-earth-americas pillars__icon" aria-hidden="true"></i>
+    <h3 class="pillars__title">Travel &amp; Life</h3>
+    <p class="pillars__text">Cross-country drives, new cities, and the story of how I got to Columbus.</p>
+  </a>
+  <a href="/year-archive/" class="pillars__item">
+    <i class="fas fa-person-running pillars__icon" aria-hidden="true"></i>
+    <h3 class="pillars__title">Running &amp; Fitness</h3>
+    <p class="pillars__text">Marathon training updates, personal bests, and the miles in between.</p>
+  </a>
+</div>
