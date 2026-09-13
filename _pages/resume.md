@@ -17,7 +17,7 @@ permalink: /resume/
 ## Experience
 
 **Thermo Fisher Scientific** — Remote
-*Manager, Finance* — Jan 2025 – Present
+*Analytics Manager, Finance* — Jan 2025 – Present
 - Automated and optimized the refresh cycle of multiple finance and case resolution reports, cutting processing time by 50% (1+ hour to 30 minutes) and enhancing accuracy and efficiency using Microsoft Dataflows.
 - Designed and deployed Power Automate workflows to streamline case management by assigning 100+ cases on behalf of the team that triggered real-time notifications via Teams/Email, improving CERT resolution speed by ~30% and enhancing accountability.
 - Partnered with business and IT stakeholders to expand automation initiatives across the Clinical Trials Division, improving operational visibility, enabling data-driven decision-making, and reducing manual workload for the finance and case resolution teams.
