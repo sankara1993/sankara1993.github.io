@@ -80,7 +80,7 @@ defaults:
 author:
   name: "Aravind Sankar"
   avatar: "/assets/images/avatar.jpg" # <-- drop a headshot here later
-    bio: "Analytics Manager, Thermo Fisher Scientific &middot; Working Professional MBA, Fisher College of Business, Ohio State."
+  bio: "Analytics Manager, Thermo Fisher Scientific &middot; Working Professional MBA, Fisher College of Business, Ohio State."
   location: "Columbus, OH"
   links:
     - label: "GitHub"
