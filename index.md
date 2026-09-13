@@ -7,7 +7,7 @@ excerpt: "Welcome"
 <div class="hero">
   <p class="hero__eyebrow">Columbus, OH</p>
   <h1 class="hero__title">Aravind Sankar</h1>
-  <p class="hero__subtitle">Manager, Finance at Thermo Fisher Scientific, and a Working Professional MBA candidate at Ohio State's Fisher College of Business. This site is where I keep my story, my project portfolio, and an ongoing log of what I'm working on in my classes.</p>
+  <p class="hero__subtitle">This is where I document what I'm building: ongoing notes from my MBA classes, project work, and the story behind it all.</p>
   <div class="hero__actions">
     <a href="/about/" class="btn btn--primary btn--pill">About Me</a>
     <a href="/portfolio-page/" class="btn btn--primary btn--pill">Portfolio</a>
