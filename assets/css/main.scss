@@ -60,6 +60,12 @@ h1, h2, h3, h4,
   background-color: transparent;
 }
 
+.site-logo img {
+  height: 2.4em;
+  width: auto;
+  vertical-align: middle;
+}
+
 /* Flatten the default card/box shadows for a cleaner, minimal look */
 .sidebar,
 .archive__item,
