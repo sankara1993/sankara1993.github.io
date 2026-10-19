@@ -23,4 +23,4 @@ Here's the real takeaway, and it's a specific one: the discipline I'd planned fo
 
 *(Splits and mile numbers above are from my watch's lap data; the finish time and placement are from the official results.)*
 
-You can see this race, and every run before it, on the same running dashboard I built earlier this year.
+You can see this race, and every run before it, on the same [running dashboard](https://claude.ai/artifact/Yb6RP9uT3v4rrr4FAPasN4) I built earlier this year.
