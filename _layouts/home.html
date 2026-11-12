@@ -1,0 +1,85 @@
+---
+layout: default
+---
+<section class="hero wrap">
+  <h1 class="hero__title">Aravind&rsquo;s Corner</h1>
+  <div class="hero__intro">
+    <img class="hero__avatar" src="{{ site.author.avatar | relative_url }}" alt="Aravind Sankar" width="88" height="88">
+    <div>
+      <p class="hero__lede">I'm Aravind. {{ site.intro }}</p>
+      <p class="hero__facts">{{ site.author.bio }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="route wrap" aria-labelledby="route-title">
+  <h2 id="route-title" class="section-title">The route so far</h2>
+  <ol class="route__line">
+    {% for stop in site.data.route %}
+    <li class="route__stop{% if stop.kind %} route__stop--{{ stop.kind }}{% endif %}">
+      <span class="route__place">{{ stop.place }}</span>
+      <span class="route__note">{{ stop.note }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+</section>
+
+{% for post in site.posts limit:1 %}
+<section class="feature wrap" aria-labelledby="feature-title">
+  <p class="feature__label">Latest post</p>
+  <h2 id="feature-title" class="feature__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+  <p class="feature__excerpt">{{ post.excerpt | strip_html | strip }}</p>
+  <p class="meta">
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    <span>{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+    <span>{{ post.categories | first }}</span>
+  </p>
+  <a class="btn" href="{{ post.url | relative_url }}">Read the post</a>
+</section>
+{% endfor %}
+
+<section class="wrap block" aria-labelledby="recent-title">
+  <div class="block__head">
+    <h2 id="recent-title" class="section-title">More from the blog</h2>
+    <a class="block__more" href="{{ '/year-archive/' | relative_url }}">See all posts</a>
+  </div>
+  <div class="rows">
+    {% for post in site.posts offset:1 limit:5 %}
+    {% include archive-single.html %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap block split">
+  <div>
+    <div class="block__head">
+      <h2 class="section-title">Projects</h2>
+      <a class="block__more" href="{{ '/portfolio-page/' | relative_url }}">See the portfolio</a>
+    </div>
+    {% for project in site.portfolio limit:2 %}
+    <a class="project" href="{{ project.url | relative_url }}">
+      {% if project.header.teaser %}<img src="{{ project.header.teaser | relative_url }}" alt="" loading="lazy">{% endif %}
+      <span class="project__title">{{ project.title }}</span>
+      <span class="project__excerpt">{{ project.excerpt | strip_html | strip }}</span>
+    </a>
+    {% endfor %}
+  </div>
+  <div>
+    <div class="block__head">
+      <h2 class="section-title">Race log</h2>
+      <a class="block__more" href="{{ '/tags/running/' | relative_url }}">Read the running posts</a>
+    </div>
+    <div class="table-scroll">
+      <table class="races">
+        <thead>
+          <tr><th scope="col">Year</th><th scope="col">Race</th><th scope="col" class="num">Time</th><th scope="col">Notes</th></tr>
+        </thead>
+        <tbody>
+          {% for race in site.data.races %}
+          <tr><td class="num">{{ race.year }}</td><td>{{ race.name }}</td><td class="num races__time">{{ race.time }}</td><td>{{ race.note }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

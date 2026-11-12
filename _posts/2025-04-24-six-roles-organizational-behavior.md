@@ -6,9 +6,9 @@ tags:
   - leadership
   - organizational-behavior
   - fisher-college-of-business
+term: "Spring 2025"
+excerpt: "Tanya Menon's Organizational Behavior course at Fisher broke becoming a better leader down into something testable: six specific roles, each with its own diagnostic tools and case studies."
 ---
-
-*Spring 2025*
 
 Every MBA core class promises to make you a "better leader." Tanya Menon's Organizational Behavior course at Fisher (Spring 2025, Tuesday evenings) actually broke that promise down into something testable: six specific roles, each with its own diagnostic tools, and a stack of case studies designed to make you fail at them safely before you fail at them for real.
 

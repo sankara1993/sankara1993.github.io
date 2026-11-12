@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% if page.category %}{% assign posts = site.categories[page.category] %}{% endif %}
+{% if page.tag %}{% assign posts = site.tags[page.tag] %}{% endif %}
+<div class="page wrap">
+  <header class="page__head">
+    <h1 class="page__title">{{ page.title }}</h1>
+    <div class="prose">
+{{ content }}
+    </div>
+  </header>
+  <div class="rows">
+    {% for post in posts %}
+    {% include archive-single.html %}
+    {% endfor %}
+  </div>
+  <p class="page__back"><a href="{{ '/year-archive/' | relative_url }}">See all posts</a></p>
+</div>

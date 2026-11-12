@@ -2,5 +2,6 @@
 title: "Blog"
 permalink: /year-archive/
 layout: posts
-author_profile: true
 ---
+
+MBA class recaps, race reports and project notes, newest first.

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="page wrap">
+  <header class="page__head">
+    <h1 class="page__title">{{ page.title }}</h1>
+    <div class="prose">
+{{ content }}
+    </div>
+  </header>
+  <div class="projects">
+    {% for project in site.portfolio %}
+    <a class="project" href="{{ project.url | relative_url }}">
+      {% if project.header.teaser %}<img src="{{ project.header.teaser | relative_url }}" alt="" loading="lazy">{% endif %}
+      <span class="project__title">{{ project.title }}</span>
+      <span class="project__excerpt">{{ project.excerpt | strip_html | strip }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</div>

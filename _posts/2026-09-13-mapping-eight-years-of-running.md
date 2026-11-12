@@ -5,6 +5,7 @@ categories:
 tags:
   - running
   - data
+excerpt: "I pulled every run I've logged on Strava since 2019 and turned it into an interactive dashboard: 711 runs, 3,922 miles and a map of the 29 places I've run."
 ---
 
 I finally did something I'd been meaning to do for years: pulled every run I've ever logged on Strava and turned it into a real dashboard. Not a screenshot of Strava's own charts, but an actual interactive site, built from my own export of the data, with filters, tooltips, and a few visualizations Strava doesn't give you out of the box.

@@ -5,9 +5,9 @@ categories:
 tags:
   - leadership
   - fisher-college-of-business
+term: "Spring 2025"
+excerpt: "The essentials of Evidence-Based Management and the AID framework (Articulate, Identify, Deploy), a practical approach to turning big ideas into real results."
 ---
-
-*Spring 2025*
 
 Ever sat through a leadership seminar and thought, "This sounds great in theory... but how do I actually do it?" That's exactly where Evidence-Based Management (EBM) steps in, and trust us, it's not just another buzzword.
 

@@ -1,4 +1,13 @@
-*Spring 2026*
+---
+title: "From Stumble to Almost Flawless"
+categories:
+  - MBA
+tags:
+  - public-speaking
+  - fisher-college-of-business
+term: "Spring 2026"
+excerpt: "A semester of public speaking at Fisher, from being stopped mid-presentation to a final Muppets pitch the professor called otherwise flawless."
+---
 
 This term I took Professional Development Workshop (MBA 6281) with Professor Lori Kendall, a Tuesday\-night, in\-person course built entirely around public speaking. No case studies, no spreadsheets. Just you, a room full of classmates, and a growing pile of feedback on how you sound and look while talking.
 

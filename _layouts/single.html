@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article class="article wrap"{% if page.collection == "posts" %} data-progress{% endif %}>
+  <header class="article__head">
+    {% if page.portrait %}<img class="article__portrait" src="{{ site.author.avatar | relative_url }}" alt="Aravind Sankar" width="120" height="120">{% endif %}
+    <h1 class="article__title">{{ page.title }}</h1>
+    {% if page.collection == "posts" %}
+    <p class="meta">
+      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <span>{{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+      <span>{{ page.categories | first }}</span>
+      {% if page.term %}<span>{{ page.term }} term</span>{% endif %}
+    </p>
+    {% endif %}
+  </header>
+  <div class="prose">
+{{ content }}
+  </div>
+  {% if page.collection == "posts" %}
+  <nav class="pager" aria-label="More posts">
+    {% if page.previous %}<a class="pager__link" href="{{ page.previous.url | relative_url }}"><span class="pager__dir">Older post</span><span class="pager__title">{{ page.previous.title }}</span></a>{% endif %}
+    {% if page.next %}<a class="pager__link pager__link--next" href="{{ page.next.url | relative_url }}"><span class="pager__dir">Newer post</span><span class="pager__title">{{ page.next.title }}</span></a>{% endif %}
+  </nav>
+  {% endif %}
+</article>
