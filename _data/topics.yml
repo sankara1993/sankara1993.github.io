@@ -1,0 +1,12 @@
+# Filter buttons on the Blog page.
+# "match" is a category or tag from a post's front matter, in lowercase.
+- label: "MBA"
+  match: "mba"
+- label: "Running"
+  match: "running"
+- label: "Data"
+  match: "data"
+- label: "Leadership"
+  match: "leadership"
+- label: "Personal"
+  match: "personal"

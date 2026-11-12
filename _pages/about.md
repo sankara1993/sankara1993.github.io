@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 permalink: /about/
+portrait: true
 ---
 
 Hey there, and welcome to my little corner of the internet! I'm so glad you stopped by. Pull up a chair and stay a while. Let me start by telling you a little about how I got here.

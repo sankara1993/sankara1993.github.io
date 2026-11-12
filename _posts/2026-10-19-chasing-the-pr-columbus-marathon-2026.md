@@ -5,6 +5,7 @@ categories:
 tags:
   - running
   - data
+excerpt: "I went back to the Columbus Marathon to chase my 2023 PR and missed it by 73 seconds. The data tells a more interesting story than the result does."
 ---
 
 Two years after my first Columbus Marathon, and one year after an ankle injury and a downpour wrecked my shot at the PR, I went back out this past Sunday to try again. Short version: I missed it, by about a minute, officially. Longer version is worth telling, because the data tells a more interesting story than the result does.

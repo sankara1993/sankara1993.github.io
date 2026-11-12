@@ -3,38 +3,22 @@
 # ===========================
 locale: "en-US"
 title: "Aravind Sankar"
-title_separator: "-"
-subtitle: "My story."
-logo: "/assets/images/logo.svg"
-name: "Aravind Sankar"
 description: "Personal site and blog: MBA coursework at Ohio State's Fisher College of Business, projects, and my story."
+intro: "This is where I document what I'm building: ongoing notes from my MBA classes, project work, and the story behind it all."
 url: "https://aravindsankar.com"
+
 baseurl: ""
-repository: "sankara1993/sankara1993.github.io" # <-- update this
 
 # ===========================
-# Theme (Minimal Mistakes, loaded remotely so you don't need to vendor it)
-# ===========================
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-minimal_mistakes_skin: "air" # options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
-
-search: true
-
-# ===========================
-# Build settings
+# Build settings (no theme: the design lives in _layouts, _includes, assets)
 # ===========================
 markdown: kramdown
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 10
-paginate_path: /page:num/
-
 include: ["_pages"]
+exclude: ["README.md"]
 
 # ===========================
 # Collections (Portfolio)
@@ -45,60 +29,32 @@ collections:
     permalink: /portfolio/:path/
 
 defaults:
-  # _posts (class notes / blog)
   - scope:
       path: ""
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-      toc: true
-      toc_sticky: true
-  # _pages (About, Resume, Contact, Portfolio index)
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
-  # portfolio collection
   - scope:
       path: ""
       type: portfolio
     values:
       layout: single
-      author_profile: true
-      share: true
 
 # ===========================
-# Author / sidebar
+# Author
 # ===========================
 author:
   name: "Aravind Sankar"
-  avatar: "/assets/images/avatar.jpg" # <-- drop a headshot here later
-  bio: "Analytics Manager, Thermo Fisher Scientific &middot; Working Professional MBA, Fisher College of Business, Ohio State."
-  location: "Columbus, OH"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Analytics Manager at Thermo Fisher Scientific. Working Professional MBA at Ohio State's Fisher College of Business. Columbus, OH."
+  email: "asankara1993@gmail.com"
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sankara1993"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sankar-aravind"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:asankara1993@gmail.com"
-
-footer:
-  links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
       url: "https://github.com/sankara1993"
-
-# ===========================
-# Navigation (edit in _data/navigation.yml)
-# ===========================

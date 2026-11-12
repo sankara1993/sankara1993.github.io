@@ -5,9 +5,9 @@ categories:
 tags:
   - running
   - marathon
+term: "Spring 2025"
+excerpt: "I've signed up for the 2025 Columbus Marathon, and this time I'm running to beat my personal best of 3 hours and 47 minutes."
 ---
-
-*Spring 2025*
 
 After taking some time off from serious training, I've been itching to lace up my running shoes again. There's just something about the rhythm of the road and the challenge of pushing my limits that keeps calling me back. So, I've decided it's time to dive back into training, and what better way to do it than by signing up for the Columbus Marathon in 2025!
 

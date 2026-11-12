@@ -1,0 +1,18 @@
+# "The route so far" line on the homepage. Add a stop by adding an entry.
+# kind: drive draws a dashed stretch, kind: now marks where you are today.
+- place: "India"
+  note: "Born here"
+- place: "Bay Area, CA"
+  note: "Grew up"
+- place: "Irvine, CA"
+  note: "UC Irvine, class of 2016"
+- place: "San Diego, CA"
+  note: "First years of work"
+- place: "The open road"
+  note: "Drove across the U.S. while working remotely"
+  kind: drive
+- place: "Chicago, IL"
+  note: "Moved in 2022"
+- place: "Columbus, OH"
+  note: "Home since 2023"
+  kind: now

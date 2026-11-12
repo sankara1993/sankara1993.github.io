@@ -5,9 +5,9 @@ categories:
 tags:
   - marketing
   - fisher-college-of-business
+term: "Fall 2024"
+excerpt: "My marketing course at Ohio State turned into a full entrepreneurial simulation: build a startup, Printed Pedals, into the top bicycle company in a competitive market across eight quarters."
 ---
-
-*Fall 2024*
 
 When I first stepped into The Ohio State University as an MBA student, I expected to dive deep into marketing theories and case studies. Little did I know that my marketing course would turn into a full-blown entrepreneurial simulation where we weren't just learning concepts, we were living them.
 

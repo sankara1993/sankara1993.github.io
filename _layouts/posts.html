@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="page wrap">
+  <header class="page__head">
+    <h1 class="page__title">{{ page.title }}</h1>
+    <div class="prose">
+{{ content }}
+    </div>
+  </header>
+  <div class="chips" role="group" aria-label="Filter posts by topic" data-target="post-list" data-empty="post-empty">
+    <button class="chip" type="button" data-topic="all" aria-pressed="true">All</button>
+    {% for topic in site.data.topics %}
+    <button class="chip" type="button" data-topic="{{ topic.match }}" aria-pressed="false">{{ topic.label }}</button>
+    {% endfor %}
+  </div>
+  <div class="rows" id="post-list">
+    {% for post in site.posts %}
+    {% include archive-single.html %}
+    {% endfor %}
+  </div>
+  <p class="empty" id="post-empty" hidden>No posts on this topic yet. Choose All to see every post.</p>
+</div>
